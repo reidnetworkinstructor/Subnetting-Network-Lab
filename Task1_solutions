@@ -1,0 +1,32 @@
+# Subnetting Task Solution: Office Network Configuration
+
+## Allocated Network
+- **Base Network:** `192.168.50.0/24`
+
+---
+
+### Subnet Allocations
+
+#### 1. HR Department
+- **Subnet Mask:** `255.255.255.192` (/26)
+- **Network Address:** `192.168.50.0`
+- **Broadcast Address:** `192.168.50.63`
+- **Usable IP Range:** `192.168.50.1` - `192.168.50.62`
+
+#### 2. IT Department
+- **Subnet Mask:** `255.255.255.224` (/27)
+- **Network Address:** `192.168.50.64`
+- **Broadcast Address:** `192.168.50.95`
+- **Usable IP Range:** `192.168.50.65` - `192.168.50.94`
+
+#### 3. Sales Department
+- **Subnet Mask:** `255.255.255.128` (/25)
+- **Network Address:** `192.168.50.128`
+- **Broadcast Address:** `192.168.50.255`
+- **Usable IP Range:** `192.168.50.129` - `192.168.50.254`
+
+#### 4. Guest Network
+- **Subnet Mask:** `255.255.255.240` (/28)
+- **Network Address:** `192.168.50.96`
+- **Broadcast Address:** `192.168.50.111`
+- **Usable IP Range:** `192.168.50.97` - `192.168.50.110`
