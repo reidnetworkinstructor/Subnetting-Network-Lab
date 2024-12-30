@@ -1,0 +1,45 @@
+# Hands-On Subnetting Task: Office Network Configuration
+
+## Scenario Details
+You are hired to set up a network for a medium-sized office. Your tasks are:
+
+### Allocated Network
+- **Base Network:** `192.168.50.0/24`
+
+### Requirements
+- **HR Department:** 60 devices
+- **IT Department:** 30 devices
+- **Sales Department:** 100 devices
+- **Guest Network:** 10 devices
+
+---
+
+## Tasks
+1. **Subnetting**:
+   - Divide the allocated network (`192.168.50.0/24`) into subnets for each department based on the required number of devices.
+
+2. **Document Your Subnets**:
+   For each department, provide the following:
+   - **Subnet Mask**
+   - **Network Address**
+   - **Broadcast Address**
+   - **Usable IP Range**
+
+3. **Validation**:
+   - Verify your configuration using:
+     - The solutions in `solutions/subnetting-task.md`.
+     - The Excel validator provided in `tools/validation.xlsx`.
+
+---
+
+## Submission Instructions
+1. Complete your calculations.
+2. Compare your results with the **Solutions** file or use the Excel validator for feedback.
+3. Ensure all required fields are completed before moving on to the next task.
+
+---
+
+## Tips for Subnetting
+- Use **CIDR notation** to assign subnet masks.
+- Always account for 2 IPs (network address and broadcast address) that cannot be used for devices.
+- Start with the largest subnet requirement and work your way down.
